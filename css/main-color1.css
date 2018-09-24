@@ -38,7 +38,7 @@ body {
 	height: 100%;
 }
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased;
@@ -312,7 +312,8 @@ ul {
 	display: inline-block;
 	font-size: 14px;
 	line-height: 24px;
-	font-weight: 500;
+	font-weight: 400;
+
 	letter-spacing: 0.6px;
 	color: #fff;
 	text-transform: uppercase;
@@ -331,7 +332,8 @@ ul {
 	background-color: #a754e2;
 	color: #fff;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 400;
+
 	letter-spacing: 0.4px;
 	text-transform: uppercase;
 	padding: 0 20px;
@@ -508,7 +510,7 @@ ul {
 .home__title {
 	display: block;
 	color: #fff;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 	font-size: 38px;
 	margin-top: 0;
@@ -522,7 +524,8 @@ ul {
 	font-weight: 600;
 	letter-spacing: 0.4px;
 	margin: 0 0 30px;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Nunito', sans-serif;
+
 }
 .home__btn {
 	display: block;
@@ -531,7 +534,8 @@ ul {
 	height: 50px;
 	line-height: 50px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 400;
+
 	-webkit-border-radius: 25px;
 	border-radius: 25px;
 	letter-spacing: 0.4px;
@@ -595,7 +599,7 @@ ul {
 .section__title {
 	font-size: 30px;
 	color: #303030;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	display: block;
 	text-align: center;
@@ -632,11 +636,11 @@ ul {
 	background-image: linear-gradient(90deg, #2c90e4 0%, #a754e2 100%);
 }
 .section__tagline {
-	display: block;
+	display: block
 	position: relative;
 	text-align: center;
 	font-size: 20px;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	color: #a754e2;
 	margin-bottom: 30px;
@@ -663,7 +667,7 @@ ul {
 .section__text {
 	font-size: 16px;
 	font-weight: 400;
-	color: #404040;
+	color: #fff;
 	line-height: 24px;
 	letter-spacing: 0.4px;
 	display: block;
@@ -671,25 +675,6 @@ ul {
 	position: relative;
 	margin-bottom: 30px;
 	margin-top: 20px;
-}
-.section__text:before {
-	content: '';
-	position: absolute;
-	display: block;
-	width: 80px;
-	height: 2px;
-	bottom: -20px;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	transform: translateX(-50%);
-	background-image: -moz-linear-gradient(90deg, #2c90e4 0%, #a754e2 100%);
-	background-image: -webkit-linear-gradient(90deg, #2c90e4 0%, #a754e2 100%);
-	background-image: -ms-linear-gradient(90deg, #2c90e4 0%, #a754e2 100%);
-	background-image: linear-gradient(90deg, #2c90e4 0%, #a754e2 100%);
-}
-.section__text--white {
-	color: #fff;
 }
 .section__btn {
 	display: inline-block;
@@ -699,7 +684,7 @@ ul {
 	height: 50px;
 	line-height: 50px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 400;
 	-webkit-border-radius: 25px;
 	border-radius: 25px;
 	letter-spacing: 0.4px;
@@ -824,6 +809,7 @@ ul {
 	color: #404040;
 	letter-spacing: 0.2px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 .about__text p:last-child {
 	margin-bottom: 0;
@@ -996,7 +982,7 @@ ul {
 	color: #303030;
 	display: block;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 0.2px;
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -1044,7 +1030,7 @@ ul {
 	color: #303030;
 	display: block;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 0.2px;
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -1098,7 +1084,7 @@ ul {
 	color: #303030;
 	display: block;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 0.2px;
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -1156,7 +1142,8 @@ ul {
 	color: #303030;
 	display: block;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 400;
+
 	letter-spacing: 0.2px;
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -1229,7 +1216,7 @@ ul {
 	color: #303030;
 	display: block;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 0.2px;
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -1275,7 +1262,7 @@ ul {
 	color: #303030;
 	display: block;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 0.2px;
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -1406,7 +1393,7 @@ ul {
 }
 .offers__item .get {
 	display: block;
-	font-weight: 500;
+	font-weight: 400;
 	color: #303030;
 	font-size: 20px;
 	letter-spacing: 0.4px;
@@ -1433,7 +1420,7 @@ ul {
 	height: 44px;
 	line-height: 44px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 400;
 	-webkit-border-radius: 22px;
 	border-radius: 22px;
 	letter-spacing: 0.4px;
@@ -1564,7 +1551,7 @@ ul {
 	height: 50px;
 	line-height: 50px;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 400;
 	-webkit-border-radius: 25px;
 	border-radius: 25px;
 	letter-spacing: 0.4px;
@@ -1693,7 +1680,7 @@ ul {
 	position: relative;
 	z-index: 2;
 	color: #fff;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	font-size: 30px;
 	margin-top: 0;
@@ -1765,7 +1752,7 @@ ul {
 	font-size: 16px;
 	letter-spacing: 0.4px;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 400;
 }
 .subscribe__btn {
 	display: block;
@@ -1836,7 +1823,7 @@ ul {
 	letter-spacing: 0.2px;
 }
 .ticker__item .name b {
-	font-weight: 500;
+	font-weight: 400;
 }
 .ticker__item .price {
 	display: block;
@@ -1930,7 +1917,7 @@ ul {
 .team__meta p {
 	display: block;
 	font-size: 17px;
-	font-weight: 500;
+	font-weight: 400;
 	color: #303030;
 	letter-spacing: 0.4px;
 	margin-bottom: 3px;
@@ -2054,7 +2041,7 @@ ul {
 .counter__value {
 	display: block;
 	color: #fff;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	font-size: 42px;
 	line-height: 100%;
@@ -2158,7 +2145,7 @@ ul {
 	content: '...';
 	position: absolute;
 	display: block;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	color: #fff;
 	font-size: 28px;
@@ -2183,7 +2170,7 @@ ul {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	opacity: 0.4;
+	opacity: 0;
 }
 .article__img:hover:after {
 	opacity: 1;
@@ -2196,7 +2183,7 @@ ul {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 0.4px;
 }
 .article__title a {
@@ -2259,7 +2246,8 @@ ul {
 	font-size: 16px;
 	color: #303030;
 	line-height: 24px;
-	font-weight: 500;
+	font-weight: 400;
+
 	display: block;
 	margin-bottom: 5px;
 	letter-spacing: 0.2px;
@@ -2460,7 +2448,7 @@ ul {
 .modal__title {
 	font-size: 30px;
 	color: #303030;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	display: block;
 	margin-top: 0;
