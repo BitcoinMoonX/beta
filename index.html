@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>BitcoinMoon - Decentralized Currency. Open Source.</title>
+	<title>BitcoinMoon -  Decentralized Currency. Open Source.</title>
 	<meta name="description" content="BitcoinMoon (BTCM) is a digital currency. It uses peer-to-peer technology to operate with no central authority or banks.">
 	<meta name="keywords" content="">
 	<meta charset="utf-8">
-	<meta name="author" content="Dmitry Volkov">
+	<meta name="author" content="BitcoinMoon">
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -73,12 +73,7 @@
 							<a data-scroll href="img/WhitePaper v-1.pdf" target="
 					-_blank">White Paper</a>
 						</li>
-					</ul>
-					<!-- end navigation -->
-
-					<!-- sign in 
-					<a href="#signin" class="header__signin modal-btn">Sign In</a>
-					 end sign in -->
+						</ul>
 				</div>
 			</div>
 		</div>
@@ -92,11 +87,9 @@
 			<!-- slide -->
 			<div class="item" data-bg="img/home/slide.jpg"></div>
 			<!-- end slide -->
-
 			<!-- slide -->
 			<div class="item" data-bg="img/home/slide.jpg"></div>
 			<!-- end slide -->
-
 			<!-- slide -->
 			<div class="item" data-bg="img/home/slide.jpg"></div>
 			<!-- end slide -->
@@ -226,60 +219,61 @@
 			</div>
 		</div>
 	</section>
-
-	<!-- offers -->
 	<section id="offers" class="section">
 		<div class="container">
 			<div class="row">
 				<!-- section title -->
 				<div class="col-xs-12">
-					<h2 class="section__title">Token Sale</h2>
-					<p class="section__tagline">We believe with large user adoption and holding of the currency there will be increased value and demand for BitcoinMoon (BTCM).</p>
-					<p class="section__title">Send ETH to Contract:</p>
-					<p class="section__tagline">0x129c8aC258bf01a43f6511EA7951Ff762B34D345</p>
-					<p class="section__tagline">Gas: 100,000 Gwei: 10 </p>
+					<h2 class="section__title">Token PreSale is Live!</h2>
+					<p class="section__taglinen">We believe with large user adoption and holding of the currency there will be increased value and demand for BitcoinMoon (BTCM).</p>
 				</div>
 				<!-- end section title -->
-
-				<!-- offers list -->
-				<div class="col-xs-12">
-					<ul class="offers offers--single">
-						<li class="offers__item">
-							<span class="get">Get 10000 BTCM</span>
-							<span class="for">for</span>
-							<span class="value">0.01</span>
-							<a class="button">ETH</a>
-						</li>
-						<li class="offers__item">
-							<span class="get">Get 100000 BTCM</span>
-							<span class="for">for</span>
-							<span class="value">0.1</span>
-							<a class="button">ETH</a>
-						</li>
-						<li class="offers__item">
-							<span class="get">Get 500000 BTCM</span>
-							<span class="for">for</span>
-							<span class="value">0.5</span>
-							<a class="button">ETH</a>
-						</li>
-						<li class="offers__item">
-							<span class="get">Get 1000000 BTCM</span>
-							<span class="for">for</span>
-							<span class="value">1</span>
-							<a class="button">ETH</a>
-						</li>
-						<li class="clearfix"></li>
-					</ul>
-				</div>
-				<!-- end offers list -->
 			</div>
 		</div>
 	</section>
 	<!-- end offers -->
-
+	<center>
+	<section class="purchase">
+		<div class="purchase-form">
+			<div class="purchase-form-items">
+				<div class="purchase-form-fields">
+					<div class="purchase-form-field" style="margin-top: 20px;">
+						<h3 for="code">To buy BTCM send your ETH to this address</h3>
+						<div class="purchase-form-input">
+							<button class="copy-btn" onclick="copyFunction()">
+								Copy
+							</button>
+							<input id="myInput" type="text" value="0x129c8aC258bf01a43f6511EA7951Ff762B34D345" readonly>
+						</div>
+					</div>
+					<div class="purchase-form-field-group">
+						<div class="purchase-form-field" style="width:100%;">
+							<h3 for="crowdsale-eth-amount">Purchase amount:</h3>
+							<div class="purchase-form-input">
+								<b class="input-icon"><img src="icon/eth-32x32.png"></b>
+								<span class="input-title">ETH</span>
+								<input type="text" id="btcc" onchange="btcConvert();" onkeyup="btcConvert();" value="0.01">
+							</div>
+						</div>
+						<div class="purchase-form-field" style="width:100%;">
+							<h3 for="crowdsale-btcm-amount">You receive:</h3>
+							<div class="purchase-form-input output">
+								<b class="input-icon"><img src="icon/favicon-32x32.png"></b>
+								<span class="input-title">BTCM</span>
+								<input type="text" id="usdc" onchange="usdConvert();" onkeyup="usdConvert();" value="10000">
+							</div>
+						</div>
+					</div>
+					<h3>Gwei 10 - Gas Limit 100000</h3>
+					<h4>Buy your BTCM tokens right now. It takes just a minute. BTCM tokens will be credited to the ETH address you used for the token purchase. Please remember to USE ONLY YOUR PERSONAL ETH ADDRESS and never use an address from an exchange platform</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+</center>
 	
-
-	<!-- safety -->
+<!-- safety -->
 	<section id="safety" class="section section">
 		<div class="container">
 			<div class="row">
@@ -334,6 +328,7 @@
 		</div>
 	</section>
 	<!-- end safety -->
+
 
 <section id="team" class="section section">
 		<div class="container">
@@ -412,7 +407,8 @@
 		</div>
 	</div>
 	<!-- end partners -->
-	
+
+	<!-- end Sale Box -->
 
 	<!-- footer -->
 	<footer class="footer">
@@ -443,47 +439,11 @@
 	</footer>
 	<!-- end footer -->
 
-	<!-- sign in -->
-	<div id="signin" class="mfp-hide modal">
-		<button class="modal__close" type="button">
-			<span class="lnr lnr-cross"></span>
-		</button>
-
-		<h6 class="modal__title">Sign In</h6>
-
-		<form class="form form--modal" action="#">
-			<input type="text" class="form__input" placeholder="Username">
-			<input type="password" class="form__input" placeholder="Password">
-			<button class="form__btn" type="button">Sign In</button>
-		</form>
-
-		<a href="#signup" class="modal__link modal-btn">Sign Up</a>
-	</div>
-	<!-- end sign in -->
-
-	<!-- sign up -->
-	<div id="signup" class="mfp-hide modal">
-		<button class="modal__close" type="button">
-			<span class="lnr lnr-cross"></span>
-		</button>
-
-		<h6 class="modal__title">Sign Up</h6>
-
-		<form class="form form--modal" action="#">
-			<input type="text" class="form__input" placeholder="Username">
-			<input type="text" class="form__input" placeholder="Email">
-			<input type="password" class="form__input" placeholder="Password">
-			<button class="form__btn" type="button">Sign Up</button>
-		</form>
-
-		<a href="#signin" class="modal__link modal-btn">Sign In</a>
-	</div>
-	<!-- end sign up -->
-
+	
 	<!-- preloader -->
 	<div class="preloader">
 		<div class="preloader__logo">
-			<img src="img/logo--dark.png" alt="">
+			<img src="img/logo--dark.png" alt="Logo">
 		</div>
 		<div class="preloader__spinner">
 			<div class="preloader__bounce1"></div>
@@ -505,5 +465,6 @@
 	<script src="js/jquery.counterup.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/price.js"></script>
 </body>
 </html>
